@@ -1,0 +1,14 @@
+{
+  "name": "hris_graphql_server",
+  "version": "1.0.0",
+  "description": "HRIS Json GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-graphql-server db.js --port 3001"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-graphql-server": "^3.2.1"
+  }
+}
