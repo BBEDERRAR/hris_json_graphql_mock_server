@@ -1,4 +1,4 @@
-module.exports = {
+const data = {
   teamOverview: [
     {
       id: 1,
@@ -184,3 +184,5 @@ module.exports = {
     },
   ],
 };
+
+export default data;
