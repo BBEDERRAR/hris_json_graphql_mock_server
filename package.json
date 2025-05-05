@@ -4,7 +4,10 @@
   "description": "HRIS Json GraphQL server",
   "main": "index.js",
   "scripts": {
-    "start": "json-graphql-server db.js --port 3001"
+    "dev": "json-graphql-server db.js --port 3001",
+    "start": "json-graphql-server db.js",
+    "build": "echo \"No build required\"",
+    "vercel-build": "echo \"No build required\""
   },
   "author": "",
   "license": "ISC",
